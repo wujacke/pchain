@@ -2,6 +2,11 @@ server:
   port: 8333
 
 spring:
+  rabbitmq:
+    host: 47.96.167.246
+    port: 5672
+    username: admin
+    password: admin 
   datasource:
     url: jdbc:mysql://47.96.167.246:3306/pchain?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
     username: root
