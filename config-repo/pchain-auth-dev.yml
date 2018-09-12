@@ -2,6 +2,9 @@ server:
   port: 8333
 
 spring:
+  feign:
+    hystrix:
+      enabled: true
   rabbitmq:
     host: 47.96.167.246
     port: 5672
