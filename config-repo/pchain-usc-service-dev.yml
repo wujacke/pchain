@@ -46,7 +46,7 @@ mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
     cache-enabled: true
-	
+
 spring:
   rabbitmq:
     host: 47.96.167.246
