@@ -47,10 +47,6 @@ mybatis-plus:
     map-underscore-to-camel-case: true
     cache-enabled: true
 
-fdfs:
-  file-host: http://127.0.0.1:22121/
-  tracker-list:
-    - 127.0.0.1:22122 
   rabbitmq:
     host: 47.96.167.246
     port: 5672
