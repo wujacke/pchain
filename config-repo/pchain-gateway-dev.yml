@@ -2,6 +2,9 @@ server:
   port: 8660
 
 spring:
+  feign:
+    hystrix:
+      enabled: true
   redis:
     database: 1
     host: 47.96.167.246
