@@ -13,7 +13,7 @@ spring:
       max-wait: -1      # 连接池最大阻塞等待时间（使用负值表示没有限制）
       max-idle: 10      # 连接池中的最大空闲连接
       min-idle: 5       # 连接池中的最小空闲连接
-	  
+
   rabbitmq:
     host: 47.96.167.246
     port: 5672
@@ -44,7 +44,7 @@ security:
     resource:
       jwt:
          key-uri: ${security.auth.server}/oauth/token_key #解析jwt令牌所需要密钥的地址
-		 
+
 ignore:
   urls:
     - /mobile/**
